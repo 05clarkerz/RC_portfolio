@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ryan Clarke - Product Design Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="Fav_icon.png" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style_sheet.css" />
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+
+    <nav>
+      <div class="logo">
+        <a href="Index.html"><img src="Images/Logo.png" alt="Ryan Clarke - logo"/></a>
+      </div>
+
+      <div class="nav_links">
+        <ul>
+          <li class="title_h4"><a href="Index.html">Home</a></li>
+          <li class="title_h4"><a href="Work.html">Work</a></li>
+          <li class="title_h4"><a href="About.html">About</a></li>
+        </ul>
+      </div>
+      <div class="icons">
+        <a href="https://www.instagram.com/bare_marks/"
+          ><img src="Images/Icon_insta.svg"
+        /></a>
+        <a href="https://www.linkedin.com/in/ryan-clarke-a220/"
+          ><img src="Images/Icon_link.svg"
+        /></a>
+        <a href="mailto:ryanalanclarke@googlemail.com"
+          ><img src="Images/Icon_mail.svg"
+        /></a>
+        <a href="#"><img src="Images/github-brands-solid 1.svg" /></a>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <main>
+      <div class="work_main">
+        <div class="work_left_illustration">
+          <img src="Images/work_left.svg" />
+        </div>
+
+        <div class="main_banner">
+          <h1 class="title_h2_white">Work</h1>
+
+          <!-- Toggle -->
+
+          <div class="form_box">
+            <div class="button_box">
+              <div id="btn" class="btn"></div>
+              <button type="button" class="toggle_btn" onclick="leftClick()">
+                Product Design
+              </button>
+              <button type="button" class="toggle_btn" onclick="rightClick()">
+                Visual Design
+              </button>
+            </div>
+          </div>
+
+          <!-- Grid of images -->
+
+          <div id="productDesign">
+            <div class="grid-container">
+              <div class="grid-item grid-item--sm">
+                <a href="#"
+                  ><img src="Images/Bailey fisher.png" alt="Product Design 1"
+                /></a>
+              </div>
+
+              <div class="grid-item grid-item--lg">
+                <a href="Casestudy_2.html"
+                  ><picture>
+                    <source
+                      type="image/jpg"
+                      srcset="Images/work_block_smartsurvey.jpg"
+                      media="(max-width: 768px)"
+                    />
+                    <img src="Images/SmartSurvey.png" alt="Product Design 2" />
+                  </picture>
+                </a>
+              </div>
+
+              <div class="grid-item grid-item--sm">
+                <a href="#"
+                  ><img src="Images/NHS.png" alt="Product Design 5"
+                /></a>
+              </div>
+            </div>
+
+            <div class="grid-container">
+              <div class="grid-item grid-item--md">
+                <a href="Casestudy_3.html"
+                  ><img src="Images/Censeo.png" alt="Product Design 6"
+                /></a>
+              </div>
+
+              <div class="grid-row">
+                <div class="grid-item grid-item--sm">
+                  <a href="#"
+                    ><img src="Images/Green king.png" alt="Product Design 8"
+                  /></a>
+                </div>
+
+                <div class="grid-item grid-item--sm">
+                  <a href="#"
+                    ><img src="Images/Habit action.png" alt="Product Design 8"
+                  /></a>
+                </div>
+              </div>
+
+              <div class="grid-item grid-item--md">
+                <a href="Casestudy_1.html"
+                  ><img src="Images/CybSafe.png" alt="Product Design 9"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div id="visualDesign" style="display: none">
+            <div class="grid-container">
+              <div class="grid-item grid-item--lg">
+                <a href="Casestudy_2.html"
+                  ><picture>
+                    <source
+                      type="image/jpg"
+                      srcset="Images/work_block_smartsurvey.jpg"
+                      media="(max-width: 768px)"
+                    />
+                    <img src="Images/Bailey fisher logo.png" alt="Product Design 2" />
+                  </picture>
+                </a>
+              </div>
+
+              <div class="grid-item grid-item--sm">
+                <a href="#"
+                  ><img src="Images/Barebones.png" alt="Product Design 1"
+                /></a>
+              </div>
+
+              <div class="grid-item grid-item--sm">
+                <a href="#"
+                  ><img src="Images/Japan.png" alt="Product Design 5"
+                /></a>
+              </div>
+            </div>
+
+            <div class="grid-container">
+              <div class="grid-row">
+                <div class="grid-item grid-item--sm">
+                  <a href="#"
+                    ><img src="Images/Empire.png" alt="Product Design 8"
+                  /></a>
+                </div>
+
+                <div class="grid-item grid-item--sm">
+                  <a href="#"
+                    ><img src="Images/Ibis.png" alt="Product Design 8"
+                  /></a>
+                </div>
+              </div>
+
+              <div class="grid-item grid-item--md">
+                <a href="Casestudy_3.html"
+                  ><img src="Images/RSC_visual.png" alt="Product Design 6"
+                /></a>
+              </div>
+
+              <div class="grid-item grid-item--md">
+                <a href="Casestudy_1.html"
+                  ><img src="Images/Vision Arch.png" alt="Product Design 9"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="work_right_illustration">
+          <img src="Images/Work_right.svg" />
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+      <h5 class="title_h5_white">©Ryan_Clarke Design</h5>
+
+      <div class="icon_reverse">
+        <a href="https://www.instagram.com/bare_marks/"
+          ><img src="Images/Insta_wo.svg"
+        /></a>
+        <a href="https://www.linkedin.com/in/ryan-clarke-a220/"
+          ><img src="Images/Link_wo.svg"
+        /></a>
+        <a href="mailto:ryanalanclarke@googlemail.com"
+          ><img src="Images/Email_wo.svg"
+        /></a>
+        <a href="#"><img src="Images/github-brands-solid 1.svg" /></a>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
