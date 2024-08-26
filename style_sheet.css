@@ -363,10 +363,6 @@ hr {
   margin: 15px;
 }
 
-#visualDesign {
-  margin: 30px 0;
-}
-
 /* Footer */
 
 footer {
@@ -1055,6 +1051,10 @@ footer {
   }
 
   #productDesign {
+    margin: 30px 0;
+  }
+
+  #visualDesign {
     margin: 30px 0;
   }
 
