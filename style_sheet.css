@@ -541,7 +541,6 @@ footer {
     order: 2;
     margin: 0;
     padding: 0;
-    margin: 20px 40px;
     padding-top: 20px;
   }
 
@@ -606,6 +605,23 @@ footer {
       align-items: center;
       color: white;
     }
+}
+
+@media screen and (max-width: 300px) {
+
+  main {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .casestudy_1 img {
+    max-width: 400px;
+    order: 2;
+    margin: 0;
+    padding-top: 20px;
+  }
 }
 
 @media screen and  (max-width: 600px) {
@@ -879,7 +895,6 @@ footer {
   margin: 0 30px;
 }
 
-/* Stack columns on smaller screens */
 @media (max-width: 768px) {
   .three_col_container {
     flex-direction: column;
