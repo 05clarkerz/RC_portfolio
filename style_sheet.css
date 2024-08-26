@@ -606,6 +606,25 @@ footer {
       align-items: center;
       color: white;
     }
+}
+
+@media (max-width: 400px) {
+
+  .casestudy_1 {
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-block {
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
 
 }
 
