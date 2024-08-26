@@ -229,7 +229,7 @@ main {
 .work_container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 hr {
@@ -252,12 +252,13 @@ hr {
 
 /* Casestudies */
 
-.casestudy_1 {
+.casestudy_1, .casestudy_2, .casestudy_3 {
   display: flex;
   width: 100%;
-  height: 500px;
-  justify-content: center;
-  align-items: center;
+  height: auto; /* Remove fixed height for better responsiveness */
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px; /* Add consistent margin between case studies */
 }
 
 .text-block {
@@ -267,6 +268,7 @@ hr {
   max-width: 550px;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-right: 40px; /* Add margin between text and image */
 }
 
 .text-block h3 {
@@ -274,9 +276,17 @@ hr {
 }
 
 .case_image1 img {
-  padding-left: 60px;
+  padding-left: 0;
   width: 100%;
   max-width: 500px;
+}
+
+/* Styling for the <hr> elements */
+
+.Work hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0; /* Add spacing above and below the <hr> */
 }
 
 /* Tag styling */
