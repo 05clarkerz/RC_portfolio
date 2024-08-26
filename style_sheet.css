@@ -541,7 +541,7 @@ footer {
     order: 2;
     margin: 0;
     padding: 0;
-    margin: 20px 0;
+    margin: 20px 40px;
     padding-top: 20px;
   }
 
@@ -550,8 +550,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 400px;
-    margin: 20px 0;
+    margin: 20px 40px;
   }
 
   .text-block p {
