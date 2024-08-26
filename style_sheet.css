@@ -286,6 +286,7 @@ hr {
 
 .tags {
   display: flex;
+  padding-top: 25px;
 }
 
 .tags h6 {
