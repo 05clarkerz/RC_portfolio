@@ -616,6 +616,7 @@ footer {
   }
 
   .cta {
+    text-align: center;
     padding: 5px;
     height: 100%;
     display: flex;
