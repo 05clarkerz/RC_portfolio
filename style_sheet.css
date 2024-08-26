@@ -108,6 +108,8 @@ h6 {
   font-size: 18px;
   color: black;
   font-weight: 500;
+  padding-top: 20px;
+  margin: 0;
 }
 
 .body_copy {
@@ -229,7 +231,7 @@ main {
 .work_container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 20px;
 }
 
 hr {
@@ -252,13 +254,12 @@ hr {
 
 /* Casestudies */
 
-.casestudy_1, .casestudy_2, .casestudy_3 {
+.casestudy_1 {
   display: flex;
   width: 100%;
-  height: auto; /* Remove fixed height for better responsiveness */
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 20px; /* Add consistent margin between case studies */
+  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-block {
@@ -268,7 +269,6 @@ hr {
   max-width: 550px;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-right: 40px; /* Add margin between text and image */
 }
 
 .text-block h3 {
@@ -276,17 +276,9 @@ hr {
 }
 
 .case_image1 img {
-  padding-left: 0;
+  padding-left: 60px;
   width: 100%;
   max-width: 500px;
-}
-
-/* Styling for the <hr> elements */
-
-.Work hr {
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 10px 0; /* Add spacing above and below the <hr> */
 }
 
 /* Tag styling */
@@ -541,7 +533,7 @@ footer {
   .casestudy_1 {
     flex-direction: column;
     width: 100%;
-    margin: 50px 0;
+    margin: 40px 0;
     justify-content: center;
     align-items: center;
   }
@@ -551,7 +543,6 @@ footer {
     order: 2;
     margin: 0;
     padding: 0;
-    padding-top: 20px;
   }
 
   .text-block {
@@ -559,12 +550,14 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px 40px;
+    margin-top: 20px;
   }
 
+  /* 
   .text-block p {
     margin: 20px 0;
   }
+    */
 
   .tags {
     display: none;
