@@ -1082,6 +1082,10 @@ footer {
   flex: 0 0 40%;
 }
 
+#visualDesign {
+  margin: 30px 0;
+}
+
 @media screen and (max-width: 768px) {
 
   .grid-item--sm,
