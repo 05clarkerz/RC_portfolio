@@ -1064,7 +1064,7 @@ footer {
 }
 
 .grid-item {
-  background-color: white;
+  background-color: none;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
